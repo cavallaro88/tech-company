@@ -160,12 +160,40 @@ nav{
 }
 
 .comentario{
-    border: 2px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 30px;
+} 
+
+.comentario_img{
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; /* Makes the image appear as a circle */    
+    display: inline;
+    vertical-align: middle;
+}
+
+.nome{
+    display: inline;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.cargo{
+    display: inline;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #6666;
 }
     
 .section_4{
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: white;
     width: 100%;
+    
 }
